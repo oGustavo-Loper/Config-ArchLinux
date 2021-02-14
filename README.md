@@ -19,8 +19,6 @@ sudo pacman -S git
 
 [wiki.arch-linux](https://aur.archlinux.org/packages/yay/)
 
-## Instalação
-
 ```sh
 sudo pacman -S base-devel
 git clone https://aur.archlinux.org/yay.git
@@ -30,3 +28,17 @@ makepkg -si
 ### Testando YAY
 
 #### yay --version
+
+## Download AnyDesk
+
+[AnyDesk](https://anydesk.com/pt/downloads/linux)
+
+```sh
+sudo pacman -S anydesk
+### OU
+yay -S anydesk
+```
+
+### Testando AnyDesk
+
+#### anydesk --version
