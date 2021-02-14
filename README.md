@@ -3,6 +3,18 @@
 
 # Configuração do Arch Linux, mais download de aplicativos para quem tiver duvidas.
 
+## Download GIT
+
+[git_scm](https://git-scm.com/)
+
+```sh
+sudo pacman -S git
+```
+
+### Testando GIT
+
+#### git --version
+
 ## Download YAY.
 
 [wiki.arch-linux](https://aur.archlinux.org/packages/yay/)
@@ -10,8 +22,11 @@
 ## Instalação
 
 ```sh
-pacman -S base-devel
+sudo pacman -S base-devel
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 ```
+### Testando YAY
+
+#### yay --version
