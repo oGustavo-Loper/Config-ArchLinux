@@ -1,2 +1,1 @@
-# Config-ArchLinux
-Toda a configuração que uso no Arch Linux.
+# Configuração do Arch Linux, mais download de aplicativos para quem tiver duvidas.
