@@ -1,0 +1,1 @@
+# Configuração do Arch Linux, mais download de aplicativos para quem tiver duvidas.
