@@ -54,3 +54,23 @@ sudo pacman -S nodejs npm
 ### Testando node.js
 
 #### node --version
+
+
+## Desabilitando o IPV6
+
+#### No terminal digitar 
+
+´´´sh
+sudo vim /etc/default/grub
+´´´
+
+#### E na linha do:
+
+´´´sh
+"GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3"
+
+ Adicionar  ipv6.disable=1: Ficando
+
+GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 ipv6.disable=1"
+
+´´´
