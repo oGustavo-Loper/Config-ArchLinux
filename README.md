@@ -42,3 +42,15 @@ yay -S anydesk
 ### Testando AnyDesk
 
 #### anydesk --version
+
+## Download node.js
+
+[nodejs.org](https://nodejs.org)
+
+´´´sh
+sudo pacman -S nodejs npm
+´´´
+
+### Testando node.js
+
+#### node --version
