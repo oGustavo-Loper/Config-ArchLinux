@@ -47,9 +47,9 @@ yay -S anydesk
 
 [nodejs.org](https://nodejs.org)
 
-´´´sh
+```sh
 sudo pacman -S nodejs npm
-´´´
+```
 
 ### Testando node.js
 
@@ -60,17 +60,17 @@ sudo pacman -S nodejs npm
 
 #### No terminal digitar 
 
-´´´sh
+```sh
 sudo vim /etc/default/grub
-´´´
+```
 
 #### E na linha do:
 
-´´´sh
+```sh
 GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3"
 
 Adicionar  ipv6.disable=1: Ficando
 
 GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 ipv6.disable=1"
 
-´´´
+```
