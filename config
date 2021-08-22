@@ -188,5 +188,5 @@ bindsym $mod+Shift+v exec code			 #Abre o VSCODE
 bindsym $mod+Shift+u exec usbimager		 #Abre o USB_IMAGER
 bindsym $mod+Shift+s exec com.spotify.Client     #Abre o Spotify
 bindsym $mod+Shift+i exec chromium               #Abre o navegador 
-
+bindsym $mod+Shift+a exec anydesk 		 #Aber o Anydesk
 
