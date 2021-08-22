@@ -181,7 +181,7 @@ bar {
         status_command i3status
 }
 
-#Config Gustavo - Arch 17/06/2021
+#Config Gustavo - Arch 22/08/2021
 
 bindsym $mod+Shift+m exec mplab_ide		 #Abre o MPLAB_IDE
 bindsym $mod+Shift+v exec code			 #Abre o VSCODE
